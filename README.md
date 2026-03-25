@@ -1,2 +1,11 @@
-# leetcode-sql
-SQL practice for Data Engineering (LeetCode problems with explanations)
+# LeetCode SQL Practice
+
+This repository contains my SQL practice problems for Data Engineering.
+
+## Topics covered:
+- JOIN
+- GROUP BY
+- Aggregation
+
+## Progress:
+- [x] Combine Two Tables (LEFT JOIN)
