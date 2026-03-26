@@ -23,4 +23,5 @@ Step 3: Put everything into the WHERE field and use NOT IN
 Concepts:
  - JOIN
  - NOT IN
+ - Subquery
 */
