@@ -7,11 +7,11 @@ BEGIN
     -- Write your PostgreSQL query statement below.
     SELECT (
         SELECT DISTINCT tmp.salary
-    FROM (
-        SELECT e.salary, DENSE_RANK() OVER (ORDER BY e.salary DESC) as rnk
-        FROM employee e
-    ) AS tmp
-    WHERE tmp.rnk = N
+        FROM (
+            SELECT e.salary, DENSE_RANK() OVER (ORDER BY e.salary DESC) as rnk
+            FROM employee e
+        ) AS tmp
+        WHERE tmp.rnk = N
     );
 END;
 $$ LANGUAGE plpgsql;
